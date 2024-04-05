@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h5 {
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    background-color: rgb(86, 93, 100);
+}
+
+a {
+    text-decoration: none;
+}
+
+h5:hover {
+    background-color: white;
+    color: black;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.element{
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+    background-color: yellow;
+    transition: 1s;
+}
+
+.element:hover {
+    width: 200px;
+    height: 100px;
+    border-radius: 0px;
+    background-image: linear-gradient(yellow,red, blue);
+    cursor: pointer;
+    
+}
