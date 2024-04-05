@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h5 {
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    background-color: rgb(86, 93, 100);
+}
+
+a {
+    text-decoration: none;
+}
+
+h5:hover {
+    background-color: white;
+    color: black;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation-name: mover ;
+    animation-duration: 3s;
+    position: relative;
+}
+
+@keyframes mover {
+    0% { 
+        transform: rotate(0deg);
+    }
+
+    100% { 
+        transform: rotate(45deg);      
+    }
+}
